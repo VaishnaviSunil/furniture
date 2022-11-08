@@ -1,0 +1,52 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/index.css' %}">
+</head>
+<body>
+    <div id="freedelivery">
+        <h2>
+            FREE HOME DELIVERY FOR SOCIAL RESIDENTS !</h2>
+    </div>
+    
+
+    <nav>
+        <ul>
+            <a href="{% url 'furniture_home:hom' %}"><li id="home">Home</li></a>
+            <a href="{% url 'furniture_home:asry' %}"><li>Accessories</li></a>
+            <a href="{% url 'furniture_home:bed' %}"><li>Bed Room</li></a>
+            <a href="{% url 'furniture_home:live' %}"><li>Living Room</li></a>
+            <a href="{% url 'furniture_home:abt' %}"><li>About</li></a>
+            <a href="{% url 'furniture_home:con' %}"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+<div id="about">
+    <div id="aboutwrite"> <h1>About Us</h1>
+        <h3>Providing our clients with the best the world has to offer in home furnishings & decor ... for less.</h3>
+    </div>
+    <div id="aboutpic"><img src="https://i0.wp.com/palacehomefurniture.com/wp-content/uploads/2019/10/cropped-logov3.png?w=878&ssl=1" alt="" id="logopic">
+    <p>your statisfaction is Our Priority</p></div>
+</div>
+    <div id="wrdpic">
+     <div id="word"><h1 id="font">It started with an idea</h1>
+       <p id="size"> Palace Home Furniture was started with the idea that hard working families deserve to own the best items without the typical high mark-ups that traditionally exist in the furniture industry. To bring the best items from the best manufacturers in the world and make them available to the marketplace for less than anyone else. Guaranteed.</p>
+        
+        </div>
+    <div id="picture"><img src="https://i0.wp.com/palacehomefurniture.com/wp-content/uploads/2019/10/about1.jpg?w=800&ssl=1" alt=""></div>
+    </div>
+    
+
+    <div id="wrdpic2">
+        <div id="picture2"><img src="https://i0.wp.com/palacehomefurniture.com/wp-content/uploads/2019/10/about2.jpg?w=800&ssl=1" alt=""></div>
+        <div id="word2"><h1 id="font">Streamlined for efficiency</h1>
+           <p id="size"> Palace Home has worked from the bottom up. From negotiating with suppliers & vendors to freight companies and credit card processors we have utilized our combined 75 years of experience in the industry to streamline the entire furniture purchasing process and pass along the savings to our clients. </p> </div>
+    </div>
+
+    
+</body>
+</html>

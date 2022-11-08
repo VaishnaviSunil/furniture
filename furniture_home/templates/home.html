@@ -1,0 +1,73 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/index.css' %}">
+</head>
+<body>
+    <div id="freedelivery">
+        <h2>
+            FREE HOME DELIVERY FOR SOCIAL RESIDENTS !</h2>
+    </div>
+    <nav>
+        <ul>
+            <a href="{% url 'furniture_home:hom' %}"><li id="home">Home</li></a>
+            <a href="{% url 'furniture_home:asry' %}"><li>Accessories</li></a>
+            <a href="{% url 'furniture_home:bed' %}"><li>Bed Room</li></a>
+            <a href="{% url 'furniture_home:live' %}"><li>Living Room</li></a>
+            <a href="{% url 'furniture_home:abt' %}"><li>About</li></a>
+            <a href="{% url 'furniture_home:con' %}"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+
+    <div id="homepic">
+        <img src="https://i0.wp.com/palacehomefurniture.com/wp-content/uploads/2022/07/7722promo.jpg?w=1169&ssl=1" alt="" id="hopic">
+    </div>
+
+    <div id="rooms">
+        <div id="living"> <h1>Living Room</h1>
+        <button class="btn">Shop Now</button></div>
+        <div id="bdroom"><h1>Bed Room</h1>
+            <button class="btn">Shop Now</button></div>
+        <div id="dining"><h1>Dinning Room</h1>
+            <button class="btn">Shop Now</button></div>
+        </div>
+
+       <div id="popular"> <h1>Popular Items</h1></div>
+
+       <div id="parent">
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+        <div id="child4"></div>
+       </div>
+
+       <div id="parent2">
+        
+        <div class="kid"><p>LIVING ROOM, LIVING ROOM SETS</p>
+        <h3>Homey Design HD-04-3pc Sofa Set Metallic Bright Gold Finish European Luxury Furniture</h3>
+    <p>$8,999.00</p>
+<button class="itembtn">Add to cart</button></div>
+
+        <div class="kid"><p>LIVING ROOM, LIVING ROOM SETS,WHAT'S NEW</p>
+        <h3>Homey Design HD-25-3pc Sofa Set Perfect Brown Finish European Luxury Furniture</h3>
+    <p>$9,599.00</p>
+    <button class="itembtn">Add to cart</button></div>
+
+        <div class="kid"><p>DINING ROOM,DINNING ROOM SETS,WHAT'S NEW</p>
+        <h3>Homey Design HD-1802-9pc Dining Set Perfect Brown Finish European Luxury Furniture</h3>
+    <p>$18,999.00</p>
+    <button class="itembtn">Add to cart</button></div>
+
+        <div class="kid"><p>DINING ROOM,DINNING ROOM SETS,WHAT'S NEW</p>
+        <h3>Homey Design HD-1803-5pc Round Dining Set Burl & Metallic Antique Gold Finish European Luxury Furniture</h3>
+    <p>$10,999.00</p>
+    <button class="itembtn">Add to cart</button></div>
+       </div>
+</body>
+</html>

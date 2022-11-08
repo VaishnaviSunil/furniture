@@ -1,0 +1,54 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/index.css' %}">
+</head>
+<body>
+    <div>
+        <ul>
+      <li>  <img src="https://i0.wp.com/palacehomefurniture.com/wp-content/uploads/2019/10/cropped-logov3.png?w=878&ssl=1" alt=""  id="imgpalace"></li>
+    
+     <li><div>
+        <img src="https://th.bing.com/th/id/OIP.CZV-bnSKxR3ptJLCsYW0CQHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" id="imgact">
+        My Account</div></li>
+     <li><div>
+        <img src="https://th.bing.com/th?q=Help+Symbol+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="" class="imgs" id="imghelp">
+        Customer help</div></li>
+     <li><div>
+        <img src="https://th.bing.com/th/id/OIP.fXzSB4qKJFvFEl29oTJr0AHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="imgs" id="imgout">
+        Check Out </div></li>
+     <li><div>
+        <img src="https://th.bing.com/th/id/OIP.ckoRgLad27sQa_ZXE-BcdgHaHx?w=150&h=176&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="imgs" id="imgdollar">
+        $0.00</div></li>
+</ul>
+</div>
+
+
+<nav>
+    <ul>
+        <a href="{% url 'furniture_home:hom' %}"><li id="home">Home</li></a>
+        <a href="{% url 'furniture_home:asry' %}"><li>Accessories</li></a>
+        <a href="{% url 'furniture_home:bed' %}"><li>Bed Room</li></a>
+        <a href="{% url 'furniture_home:live' %}"><li>Living Room</li></a>
+        <a href="{% url 'furniture_home:abt' %}"><li>About</li></a>
+        <a href="{% url 'furniture_home:con' %}"><li>Contact Us</li></a>
+    </ul>
+</nav>
+
+<div id="freedelivery">
+    <h2>
+        FREE HOME DELIVERY FOR SOCIAL RESIDENTS !</h2>
+</div>
+
+<div id="body">
+    <img src="https://i0.wp.com/palacehomefurniture.com/wp-content/uploads/2022/07/7722promo.jpg?w=1169&ssl=1" alt="">
+</div>
+
+
+</body>
+</html>

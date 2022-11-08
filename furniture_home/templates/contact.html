@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/index.css' %}">
+</head>
+<body>
+    <div id="freedelivery">
+        <h2>
+            FREE HOME DELIVERY FOR SOCIAL RESIDENTS !</h2>
+    </div>
+    
+
+    <nav>
+        <ul>
+            <a href="{% url 'furniture_home:hom' %}"><li id="home">Home</li></a>
+            <a href="{% url 'furniture_home:asry' %}"><li>Accessories</li></a>
+            <a href="{% url 'furniture_home:bed' %}"><li>Bed Room</li></a>
+            <a href="{% url 'furniture_home:live' %}"><li>Living Room</li></a>
+            <a href="{% url 'furniture_home:abt' %}"><li>About</li></a>
+            <a href="{% url 'furniture_home:con' %}"><li>Contact Us</li></a>
+        </ul>
+    </nav>
+
+    <div id="ct">
+
+        <p><h1>Get in touch with us:</h1>
+
+           <p><h2> Call: 626-391-9284 </h2></p>
+            
+           <h3> 19745 Colima Road <br>
+            Rowland Heights, CA 91748</h3>
+            
+           <b> Email: info@palacehomefurniture.com </b></p>
+    </div>
+</body>
+</html>
