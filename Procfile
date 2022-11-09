@@ -1,1 +1,1 @@
-web:gunicorn furniture.wsgi --log-file-
+web: gunicorn furniture.wsgi --log-file -
